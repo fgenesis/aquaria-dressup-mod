@@ -2,6 +2,8 @@ if v == nil then v = {} end
 
 local ANIMS = COSTUMES.anims
 
+v.text = 0
+
 function init(me)
 	node_setCursorActivation(me, true)
 	local x, y = node_getPosition(getNode("animtextpos"))

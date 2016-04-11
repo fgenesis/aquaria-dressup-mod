@@ -7,6 +7,7 @@ what sets they belong in. And keeps track of current selected items.
 Also keeps Naija with the correct clothing items.
 ]]--
 
+dofile("scripts/safe.lua")
 dofile("scripts/stuff.lua")
 
 local SCALE_DEFAULT = 0.5
